@@ -1284,10 +1284,10 @@
     postcss "^8.3.7"
     postcss-sort-media-queries "^4.1.0"
 
-"@docusaurus/logger@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.npmmirror.com/@docusaurus/logger/-/logger-2.2.0.tgz"
-  integrity sha512-DF3j1cA5y2nNsu/vk8AG7xwpZu6f5MKkPPMaaIbgXLnWGfm6+wkOeW7kNrxnM95YOhKUkJUophX69nGUnLsm0A==
+"@docusaurus/logger@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@docusaurus/logger/-/logger-2.4.3.tgz#518bbc965fb4ebe8f1d0b14e5f4161607552d34c"
+  integrity sha512-Zxws7r3yLufk9xM1zq9ged0YHs65mlRmtsobnFkdZTxWXdTYlWWLWdKyNKAsVC+D7zg+pv2fGbyabdOnyZOM3w==
   dependencies:
     chalk "^4.1.2"
     tslib "^2.4.0"
@@ -1439,7 +1439,7 @@
     "@docusaurus/theme-classic" "0.0.0-4193"
     "@docusaurus/theme-search-algolia" "0.0.0-4193"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.npmmirror.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -1530,7 +1530,7 @@
 
 "@docusaurus/utils-validation@0.0.0-4193":
   version "0.0.0-4193"
-  resolved "https://registry.npmmirror.com/@docusaurus/utils-validation/-/utils-validation-0.0.0-4193.tgz"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-0.0.0-4193.tgz#96f7af723a971411635c5c51a38c391bd9699523"
   integrity sha512-ppVmx3KOHKyxta51O76VAVLttR46ItigEVpbaw5nfxs8muGKXmddWQ2lA78ga1zTDzwLT/7d18kngn46Qva+dw==
   dependencies:
     "@docusaurus/utils" "0.0.0-4193"
@@ -1539,19 +1539,19 @@
     tslib "^2.3.1"
 
 "@docusaurus/utils-validation@^2.0.0-beta.4":
-  version "2.2.0"
-  resolved "https://registry.npmmirror.com/@docusaurus/utils-validation/-/utils-validation-2.2.0.tgz"
-  integrity sha512-I1hcsG3yoCkasOL5qQAYAfnmVoLei7apugT6m4crQjmDGxq+UkiRrq55UqmDDyZlac/6ax/JC0p+usZ6W4nVyg==
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-2.4.3.tgz#8122c394feef3e96c73f6433987837ec206a63fb"
+  integrity sha512-G2+Vt3WR5E/9drAobP+hhZQMaswRwDlp6qOMi7o7ZypB+VO7N//DZWhZEwhcRGepMDJGQEwtPv7UxtYwPL9PBw==
   dependencies:
-    "@docusaurus/logger" "2.2.0"
-    "@docusaurus/utils" "2.2.0"
+    "@docusaurus/logger" "2.4.3"
+    "@docusaurus/utils" "2.4.3"
     joi "^17.6.0"
     js-yaml "^4.1.0"
     tslib "^2.4.0"
 
 "@docusaurus/utils@0.0.0-4193":
   version "0.0.0-4193"
-  resolved "https://registry.npmmirror.com/@docusaurus/utils/-/utils-0.0.0-4193.tgz"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-0.0.0-4193.tgz#cf4e7367cf926bf2ac8e3039088d60a49537e4e3"
   integrity sha512-c+1c735JzKqE2pRAkHnKyz81a6RE5HcVL3J1tpw9ACKjMyDq1qv3XeYa/ZKv/09qi/FI2QiZ32eiYHMXNZE1Sw==
   dependencies:
     "@docusaurus/types" "0.0.0-4193"
@@ -1569,13 +1569,14 @@
     resolve-pathname "^3.0.0"
     tslib "^2.3.1"
 
-"@docusaurus/utils@2.2.0", "@docusaurus/utils@^2.0.0-beta.4":
-  version "2.2.0"
-  resolved "https://registry.npmmirror.com/@docusaurus/utils/-/utils-2.2.0.tgz"
-  integrity sha512-oNk3cjvx7Tt1Lgh/aeZAmFpGV2pDr5nHKrBVx6hTkzGhrnMuQqLt6UPlQjdYQ3QHXwyF/ZtZMO1D5Pfi0lu7SA==
+"@docusaurus/utils@2.4.3", "@docusaurus/utils@^2.0.0-beta.4":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.4.3.tgz#52b000d989380a2125831b84e3a7327bef471e89"
+  integrity sha512-fKcXsjrD86Smxv8Pt0TBFqYieZZCPh4cbf9oszUq/AMhZn3ujwpKaVYZACPX8mmjtYx0JOgNx52CREBfiGQB4A==
   dependencies:
-    "@docusaurus/logger" "2.2.0"
+    "@docusaurus/logger" "2.4.3"
     "@svgr/webpack" "^6.2.1"
+    escape-string-regexp "^4.0.0"
     file-loader "^6.2.0"
     fs-extra "^10.1.0"
     github-slugger "^1.4.0"
@@ -6431,6 +6432,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   integrity sha512-lq3Lyw1lGku8zUEJPDxsNm1AfYHBrO9Y1+olAYwpUJ2IGFBskM0DMKok97A6LWUpHm+o7IvQBOWu9MLenp9Z+A==
   dependencies:
     "@babel/runtime" "^7.10.3"
+
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.npmmirror.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
 
 react-router-config@^5.1.1:
   version "5.1.1"
